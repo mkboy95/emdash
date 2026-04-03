@@ -13,19 +13,18 @@
 		"seed": "emdash seed"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "catalog:",
-		"@astrojs/react": "catalog:",
-		"@emdash-cms/cloudflare": "workspace:*",
-		"@emdash-cms/plugin-forms": "workspace:*",
-		"@emdash-cms/plugin-webhook-notifier": "workspace:*",
-		"astro": "catalog:",
-		"emdash": "workspace:*",
-		"react": "catalog:",
-		"react-dom": "catalog:"
+		"@astrojs/cloudflare": "^11.0.0",
+		"@astrojs/react": "^3.0.0",
+		"@emdash-cms/cloudflare": "^0.1.0",
+		"@emdash-cms/plugin-forms": "^0.1.0",
+		"astro": "^6.0.0-beta.0",
+		"emdash": "^0.1.0",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0"
 	},
 	"devDependencies": {
-		"@astrojs/check": "catalog:",
-		"@cloudflare/workers-types": "catalog:",
-		"wrangler": "catalog:"
+		"@astrojs/check": "^0.9.0",
+		"@cloudflare/workers-types": "^4.0.0",
+		"wrangler": "^3.0.0"
 	}
 }
